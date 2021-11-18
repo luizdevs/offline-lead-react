@@ -1,0 +1,58 @@
+@import '../../styles/guide.scss';
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+
+    > div{
+        width: 100%;
+        
+        span{
+            font-size: 0.9rem;
+            color: $color-text-light;   
+        }
+    }
+}
+
+.data{
+    width: 100%;
+    max-height: 250px;
+    overflow-x: hidden;
+    margin-bottom: 40px;
+
+    > div:nth-child(even){
+        background-color: $color-border;
+    }
+}
+
+.dataItem{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 15% 40% 40% 5%;
+    padding: 6px 4px;
+    gap: 4px;
+    border-radius: $border-radius;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+
+    > div{
+        padding: 4px 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    > div:nth-child(2){
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}

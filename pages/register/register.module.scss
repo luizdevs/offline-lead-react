@@ -1,0 +1,67 @@
+@import '../../styles/guide.scss';
+
+.container{
+    width: 90%;
+    height: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: none;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+
+    > img{
+        height: 80px;
+    }
+
+    > div{
+        margin-left: 15px;
+        padding-left: 15px;
+        border-left: 1px solid $color-border;
+    }
+}
+
+.formContainer{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.finishedContainer{
+    width: 100%;
+    text-align: center;
+
+    > h2{
+        font-size: 2.4rem;
+
+        > b{
+            text-transform: capitalize;
+        }
+    }
+
+    h4{
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+}
+
+.icon{
+    display: inline-block;
+    font-size: 3rem;
+    padding: 18px 24px;
+    background-color: #FFF;
+    border-radius: 100%;
+    margin-bottom: 20px;
+
+    > svg{
+        color: $color-primary;
+    }
+}

@@ -1,0 +1,14 @@
+$color-primary: #006600;
+$color-text: #FFF;
+$color-text-light: rgba(255, 255, 255, 0.507);
+$color-border: rgba(0, 0, 0, 0.267);
+$color-error: red;
+
+$border-radius: 4px;
+
+.divisor{
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    border-top: 1px solid $color-border;
+}

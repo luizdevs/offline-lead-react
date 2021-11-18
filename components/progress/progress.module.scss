@@ -1,0 +1,18 @@
+@import '../../styles/guide.scss';
+
+.container{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    background-color: $color-border;
+    border-radius: 5px;
+}
+
+.progress{
+    background-color: #000;
+    border-radius: 5px;
+    text-align: right;
+    padding:0 6px;
+}
