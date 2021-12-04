@@ -56,7 +56,7 @@ class Email extends React.Component{
 
         return(
         <>
-            <Form.Form onSubmit={this.onSubmit} autocomplete="off">
+            <Form.Form onSubmit={this.onSubmit} autoComplete="off">
                 <Form.Input required autoFocus disabled={loading} id="email" value={email} onChange={this.onChange} label="Qual o seu e-mail?" placeholder="Exemplo: joao@gmail.com" helper="Dica: Insira o endereço de e-mail que você mais utiliza." />
 
                 <Form.Actions>

@@ -52,7 +52,7 @@ class Name extends React.Component{
 
         return(
         <>
-            <Form.Form onSubmit={this.onSubmit} autocomplete="off">
+            <Form.Form onSubmit={this.onSubmit} autoComplete="off">
                 <Form.Input required autoFocus disabled={loading} id="name" value={name} onChange={this.onChange} label="Qual o seu nome?" placeholder="Exemplo: João Santos" helper="Dica: Utilize o seu nome completo." />
 
                 <Form.Actions>

@@ -12,3 +12,8 @@ body{
     font-size: 16px;
     color: #FFF;
 }
+
+a{
+    color: rgba(0, 0, 0, 0.473);
+    text-decoration: none;
+}

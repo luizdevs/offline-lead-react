@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
-import { Validate, Functions } from '../../config'
+import Head from 'next/head'
 
 import styles from './register.module.scss'
 import { Body, Form, Menu } from '../../components'
-import { FaAngleLeft, FaAngleRight, FaCheck } from 'react-icons/fa'
 
 // Steps
 import { Name as StepName, Email as StepEmail, Finish as FinishStep } from './steps'
@@ -25,6 +24,11 @@ export default function Register(){
 
     return(
     <>
+        <Head>
+            <title>Instituto Ubuntu</title>
+            <link rel='manifest' href='/manifest.json' />
+        </Head>
+
         <Body>
             <Menu />
 
@@ -41,8 +45,9 @@ export default function Register(){
                     <Flow />
                 </div>
 
-                <footer>
-                    footer
+                <footer className={styles.footer}>
+                    <a href="#" title="">Instituto Ubuntu</a>
+                    <a href="#" title="">Política de Privacidade</a>
                 </footer>
             </div>
         </Body>
